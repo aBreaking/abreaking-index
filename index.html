@@ -1,228 +1,137 @@
-	<!DOCTYPE HTML>
-	
-	<html>
-		<head>
-			<title>李维的个人主页</title>
-			<meta charset="utf-8" />
-			<meta name="description" content="李维的个人主页。好coding，不求甚解，每有good idea，便欣然忘食。" />
-			<meta name="keywords" content="李维, abreaking，个人主页" />
-			<meta name="author" content="李维" />
-			
-			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-			<link rel="icon" href="images/icon/favicon.ico" />
-			<link rel="stylesheet" href="assets/css/main.css" />
-			<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-			<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-			<script src="assets/js/jquery.min.js"></script>
-		</head>
-		<body>
-	
-			<!-- Wrapper -->
-				<div id="wrapper">
-					<!-- Header -->
-					<header id="header">
-						<div class="content">
-							<div class="inner">
-								<h1>
-									<img src="images/lwdgrzy.png" />
-								</h1>
-								<p>&nbsp;&nbsp;IT男，九零后，千里求学龙城走。现入蓉漂流。</p>
-								<p>好读书，爱旅游，偶尔写诗消消愁。也曾带吴钩。</p>
-								<script type="text/javascript">
-									var cookie = document.cookie;
-									if(cookie.indexOf("user")!=-1){
-										//我本人的操作，就不再记录
-										
-									}else{										
-										$.ajax({
-											type:"post",
-											url:"http://127.0.0.1:8080/visitor/record",
-											async:true,
-											data:"page=个人主页",
-											xhrFields:{
-											    withCredentials:true       //可以发送cookie										
-											},
-											success:function(d){
-												//
-											}
-										});
-									}
-								</script>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li>
-									<a class="img about-me" href="#intro"></a>										
-									<a  href="#intro">关于我</a>
-								</li>
-								<li>
-									<a class="img say-sth" href="#contact"></a>
-									<a href="#contact">留言</a>
-								</li>
-								<li>
-									<a class="img to_blog" href="http://blog.abreaking.com"></a>
-									<a href="http://www.abreaking.com">去我博客</a>
-								</li>	
-							</ul>
-						</nav>
-					</header>
-	
-					<!-- Main -->
-					<div id="main">	
-						<!-- Intro -->								
-							<article id="intro">
-								
-								<h2 class="major">关于我</h2>
-								
-								<div class="decorate"></div>
-								<div class="decorate second"></div>
-								
-								<div class="raindrop">
-									<img  src="images/icon/raindrop.png" />
-									<img  src="images/icon/raindrop.png" />	
-									<img  src="images/icon/raindrop.png" />	
-								</div>
-								
-								
-								<div class="me descImg">
-									<img src="images/me-img.png"/>
-								</div>
-								<div class="me desc">
-									
-									<p>
-										我是一枚程序猿。或者，你也可以叫我软件工程狮。										
-									</p>
-									<p>
-										我热爱编程，热爱技术，热爱Java。
-										编程能让我的逻辑思维更加慎密，喜欢从无到有的设计过程。
-										就好像一个雕塑大师正在塑造一件伟大的艺术品一样，既小心翼翼，又充满期待。
-									</p>
-									<p>
-										我也是一个唐诗宋词“粉”，崇尚古文诗词之韵，崇拜诗仙东坡之风。
-										编程让我变得“宅”，其实，我愿意走遍祖国河山。
-										行走在旅途中，偶尔我也会写写诗记录我的感受。
-									</p>
-									<p>
-										现在，我从事着后台运维开发方面的工作，挣扎在成都贫困线边缘。
-										如果，你想更多的了解我，欢迎你访问我的个人<a href="http://blog.abreaking.com">博客</a>。
-										或者你也可以在以下网站找到我。
-									</p>
-									<div class="findMe">
-										<ul>									
-											<li><img alt="csdn" src="images/icon/csdn.png" onclick="externalLink('https://blog.csdn.net/abreaking2012')"></li>
-											<li><img alt="github" src="images/icon/github.png" onclick="externalLink('https://github.com/aBreaking')"></li>
-											<li><img alt="开源中国" src="images/icon/kyzg.png" onclick="externalLink('https://my.oschina.net/u/3872591')"></li>
-											<li><img alt="今日头条" src="images/icon/toutiao.png" onclick="externalLink('https://www.toutiao.com/c/user/100164093841/#mid=1613400691819524')"></li>
-										</ul>
-									</div>
-									
-									
-								</div>	
-								
-							</article>
-							
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Astral by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css?v=2.0.0" />
+		<link rel="shortcut icon" href="https://blog.abreaking.com/user/img/favicon.png" />
+		<meta name="description" content="李维的个人主页。好coding，不求甚解，每有good idea，便欣然忘食。" />
+		<meta name="keywords" content="李维, abreaking，李维的个人主页" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-							<article id="contact">
-								<div class="decorate">										
-								</div>
-								<div class="decorate second">										
-								</div>
-								<div class="raindrop">
-									<img  src="images/icon/raindrop.png" />
-									<img  src="images/icon/raindrop.png" />	
-									<img  src="images/icon/raindrop.png" />	
-								</div>
-																	
-								<h2 class="major" id="10086">留言</h2>
-								<div class="me descImg">
-									<img src="images/me-img.png"/>
-								</div>
-								<div class="me message">
-									<form method="post" action="http://127.0.0.1/message/submit">										
-	           							<input type="hidden" name="anchor" value="contact">
-										<div class="">											
-											<i class="fa fa-user-o" aria-hidden="true"></i>
-											<input type="text" name="author"  placeholder="怎么称呼"/>
-										</div>
-										<div class="">
-											<i class="fa fa-envelope-o" aria-hidden="true"></i>
-											<input type="text" name="email" id="email" placeholder="你的邮箱"/>
-											<label class="xuantian">选填</label>
-										</div>
-										<div class="textarea">
-											<i class="fa fa-commenting-o" aria-hidden="true"></i>
-											<textarea name="text" id="message" rows="4" required="required" placeholder="说两句呗"></textarea>
-										</div>
-										<ul class="actions">
-											<li><input type="button" value="提交留言" class="special" onclick="sendMessage()" /></li>
-											<li><input type="reset" value="重置" /></li>
-										</ul>									
-									</form>
-								</div>
-								
-								<div class="attachment">
-									<span>你的留言将会保存在<a href="http://blog.abreaking.com/message">留言板中</a>。如果有留下你的邮箱，我会将回复信息发送至你的邮箱。</span> 
-								</div>
-								
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon fa-home"><span>Home</span></a>
+						<a href="#work" class="icon fa-folder"><span>Me</span></a>
+						<!--<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>-->
+						<a href="https://blog.abreaking.com" class="icon fa-feed"><span>Blog</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>Li Wei</h1>
+									<p>A Programmer , A Traveler</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<img src="images/me.jpg" alt="" />
+								</a>
 							</article>
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2>About me</h2>
+								</header>
+								<p>我是一枚程序猿，或者你也可以叫我软件工程狮。</p>
+								<p>我热爱编程、热爱技术、热爱Java。
+									沉醉于用代码来让计算机服从我命令的感觉，编程让我的逻辑思维更为慎密。
+									喜欢从无到有的设计过程，就好像雕刻大师塑造一件伟大的艺术品一样，既小心翼翼，又充满期待。
+									这是我的<a href="http://blog.abreaking.com/">程序人生</a>
+								</p>
+								<p>我也是一个唐诗宋词"粉"，崇尚古诗词之韵，崇拜诗仙东坡之风。
+									也曾想仗剑走天涯，也向往诗与远方，行走在旅途中，偶得诗兴，也能作得一两首诗词，旁添雅致。
+									休对故人思故国，且将新火试新茶，诗酒趁年华。
+									这是我的<a href="http://blog.abreaking.com/poetry">诗词年华</a>
+								</p>
+								<p>我现在生活在成都，在一家电信行业的软件公司工作，挣扎在贫困线的边缘。如果，你想更多的了解我，欢迎你访问我的<a href="http://blog.abreaking.com">个人博客</a>。</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form id="comment-form" method="post">
+									<div>
+										<div class="row">
+											<input type="hidden" name="coid" id="coid"/>
+											<input type="hidden" name="cid" id="cid" value="0"/>
+											<input type="hidden" name="_csrf_token" id="_csrf_token"/>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="author" placeholder="怎么称呼" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="mail" placeholder="你的邮箱" />
+											</div>
+											<div class="col-12">
+												<textarea name="text" placeholder="你的留言" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="button" onclick="subComment()" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; CopyRight 2018 abreaking.com <br> <!--蜀ICP备18001554号-1.--> </span>
-					</footer>
-	
+					<div id="footer">
+						<ul class="copyright">
+							<li>蜀ICP备18001554号</li>
+						</ul>
+					</div>
+
 			</div>
-	
-			<!-- BG -->
-				
-				
-				<div id="bg">
-					<div class="circle"></div>
-					<div class="circle"></div>
-					<div></div>
-					<div class="abreaking-bottom">ABREAKING</div>
-				
-					<img  class="right-picture" src="images/picture.png" />
-					
-					<div class="metric">
-						<img src="images/icon/metric.png" >
-						<img src="images/icon/metric.png" >
-						<img src="images/icon/metric.png" >
-						<img src="images/icon/metric.png" >	
-					</div>					   
-				</div>
-				
-				
-		
-				
-				<script src="assets/js/skel.min.js"></script>
-				<script src="assets/js/util.js"></script>
-				<script src="assets/js/main.js"></script>
-	
-		</body>
-		<script type="text/javascript">
-			function sendMessage(){
-				//check
-				if($("#message").val()==""){
-					alert("写点内容呗");
-					return ;
-				}
-				//submit
-				$("#contact form").submit();	
-				alert("留言成功");
-			}
-			function showDetail(){
-				$("#detail").show(100);
-			}
-			function hideDetail(){
-				$("#detail").hide(100);
-			}
-			function externalLink(href){
-				window.open(href);
-			}
-			
-		</script>
-		
-	</html>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js?v=2.0.0"></script>
+			<script src="assets/js/browser.min.js?v=2.0.0"></script>
+			<script src="assets/js/breakpoints.min.js?v=2.0.0"></script>
+			<script src="assets/js/util.js?v=2.0.0"></script>
+			<script src="assets/js/main.js?v=2.0.0"></script>
+			<script type="text/javascript">
+
+                /**
+                 * 提交评论
+                 * @returns {boolean}
+                 */
+                function subComment() {
+                    $.ajax({
+                        type: 'post',
+                        url: 'http://localhost:8080/comment',
+                        data: $('#comment-form').serialize(),
+                        dataType: 'json',
+                        success: function (result) {
+                            $('#comment-form input[name=coid]').val('');
+                            console.log(new Date().getTime());
+                            $('#comment-form input[name=_csrf_token]').val(new Date().getTime());
+
+                            if (result && result.success) {
+                                alert("评论已提交至后台审核!");
+                                $("#comment-form")[0].reset();
+                                return true;
+                            } else {
+                                if (result.msg) {
+                                    alert(result.msg);
+                                }
+                            }
+                        }
+                    });
+                    return false;
+                }
+			</script>
+
+	</body>
+</html>
