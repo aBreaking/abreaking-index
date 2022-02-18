@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    /*background-image: url("../../images/abreakinglove.png");*/
+    background: url("../../images/abreakinglove2.png") no-repeat;
     background-color: #ffe;
     font-size: 12px;
     overflow: auto
